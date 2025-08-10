@@ -1,7 +1,12 @@
 {
-  "name": "anti-pmo-app",
+  "name": "my-app",
   "version": "1.0.0",
   "private": true,
-  "description": "Anti-PMO habit tracker (Arabic, RTL) - Appflow ready",
-  "scripts": { "build": "echo \"Static web in www/\"" }
+  "dependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/android": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
 }
